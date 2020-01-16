@@ -10,22 +10,22 @@ using System.Windows.Forms;
 
 namespace ImageAnnotationTool
 {
-    public partial class FormMain : Form
+    public partial class FormProjects : Form
     {
-        public FormMain()
+        public FormProjects()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-
+            FormProjectAdd f = new FormProjectAdd();
+            f.ShowDialog();
         }
 
-        private void projectsToolStripMenuItem_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            FormProjects p = new FormProjects();
-            p.ShowDialog();
+
         }
     }
 }

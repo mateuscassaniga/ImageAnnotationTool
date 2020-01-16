@@ -51,10 +51,28 @@
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormProjectAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProjectAdd.Designer.cs">
+      <DependentUpon>FormProjectAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProjects.Designer.cs">
+      <DependentUpon>FormProjects.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProjectAdd.resx">
+      <DependentUpon>FormProjectAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProjects.resx">
+      <DependentUpon>FormProjects.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
